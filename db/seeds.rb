@@ -7,6 +7,5 @@ User.create!([
   {email: "student4@gmail.com", password: "password", reset_password_token: nil, reset_password_sent_at: nil, remember_created_at: nil, sign_in_count: 0, current_sign_in_at: nil, last_sign_in_at: nil, current_sign_in_ip: nil, last_sign_in_ip: nil, username: "awesomeStudent4", name: nil, age: nil, bio: nil, school: nil, work: nil}
 ])
 Friendship.create!([
-  {user_id: nil, friend_id: nil, state: "pending", friended_at: nil},
   {user_id: 1, friend_id: 6, state: "pending", friended_at: nil}
 ])
